@@ -1,0 +1,6 @@
+tasks:
+  - name: Setup
+    init: |
+      git checkout release-v5.0.3
+      sudo chmod u+x install.sh
+      sudo ./install.sh
